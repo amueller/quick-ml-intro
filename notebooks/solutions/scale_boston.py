@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 # we're setting some options for nicer printing here
 np.set_printoptions(suppress=True, precision=4)
